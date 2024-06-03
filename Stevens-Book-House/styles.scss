@@ -1,0 +1,115 @@
+@import "./variables";
+@import "./mixin";
+
+header{
+    color: coral;
+    background-color: bisque;
+    border: $BookBorder;
+    @include flexCenter;
+}
+
+
+.Welcome{
+    background-color: $BookBackground;
+    
+    h2{
+        color: chocolate;
+    }
+    p{
+        color: $BookLabel;
+    }
+
+}
+
+
+.book-1{
+    background-color: $BookBackground;
+    color: $BookLabel;
+    font-size: $BookLabelSize;
+    background-color: $BookBackground;
+    border: $BookBorder;
+    @include flexCenter;
+    
+    button{
+        background-color: $BookLabel;
+        &:hover{
+            background-color: darken($BookLabel, 20%); }
+        a{
+            color: white;
+        } 
+    }
+}
+
+.book-2{
+    background-color: $BookBackground;
+    color: $BookLabel;
+    font-size: $BookLabelSize;
+    background-color: $BookBackground;
+    border: $BookBorder;
+    @include flexCenter;
+
+    button{
+        background-color: $BookLabel;
+        &:hover{
+            background-color: darken($BookLabel, 20%); }
+        a{
+            color: white;
+        } 
+    }
+}
+.book-3{
+    background-color: $BookBackground;
+    color: $BookLabel;
+    font-size: $BookLabelSize;
+    background-color: $BookBackground;
+    border: $BookBorder;
+    @include flexCenter;
+
+    button{
+        background-color: $BookLabel;
+        &:hover{
+            background-color: darken($BookLabel, 20%); }
+        a{
+            color: white;
+        } 
+    }
+}
+.book-4{
+    background-color: $BookBackground;
+    color: $BookLabel;
+    font-size: $BookLabelSize;
+    background-color: $BookBackground;
+    border: $BookBorder;
+    @include flexCenter;
+
+    button{
+    
+        background-color: $BookLabel;
+        &:hover{
+            background-color: darken($BookLabel, 20%); }
+
+        a{
+            color: white;
+        } 
+    }
+}
+.book-5{
+    background-color: $BookBackground;
+    color: $BookLabel;
+    font-size: $BookLabelSize;
+    background-color: $BookBackground;
+    border: $BookBorder;
+    @include flexCenter;
+
+    button{
+        
+        background-color: $BookLabel;
+        &:hover{
+        background-color: darken($BookLabel, 20%); }
+
+        a{
+            color: white;
+        } 
+    }
+}
+
